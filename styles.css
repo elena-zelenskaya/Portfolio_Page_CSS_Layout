@@ -1,0 +1,168 @@
+/* reset styles */
+* {  
+	vertical-align: baseline;  
+	font-family: inherit;  
+	font-style: inherit;  
+	font-size: 100%;  
+	border: none;  
+	padding: 0;  
+	margin: 0;  
+	}  
+
+/* my styles */
+.container {
+    margin:0 auto;
+    width:920px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #f2f2f2;
+    height:40px;
+    padding:10px 20px;
+}
+header h1 {
+    display:inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    width:60%;
+    vertical-align: middle;
+}
+header h2 {
+    display:inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+main {
+    padding:25px;
+    background: -webkit-linear-gradient(156deg, rgb(69, 50, 57) 0%, rgb(79, 59, 67) 45%, rgb(90, 69, 78) 100%);
+    background: -o-linear-gradient(156deg, rgb(69, 50, 57) 0%, rgb(79, 59, 67) 45%, rgb(90, 69, 78) 100%);
+    background: -ms-linear-gradient(156deg, rgb(69, 50, 57) 0%, rgb(79, 59, 67) 45%, rgb(90, 69, 78) 100%);
+    background: -moz-linear-gradient(156deg, rgb(69, 50, 57) 0%, rgb(79, 59, 67) 45%, rgb(90, 69, 78) 100%);
+    background: linear-gradient(294deg, rgb(69, 50, 57) 0%, rgb(79, 59, 67) 45%, rgb(90, 69, 78) 100%);
+}
+
+img.my_portrait {
+    display:inline-block;
+    width: 390px;
+    height:257px;
+    border: 4px solid lightgrey;
+    margin-right:25px;
+    vertical-align: top;
+}
+
+.about {
+    display:inline-block;
+    width:447px;
+    height:265px;
+    vertical-align: top;
+    background: -webkit-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
+    background: -o-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
+    background: -ms-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
+    background: -moz-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
+    background: linear-gradient(to right, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
+}
+h3 {
+    padding:10px;
+    color:white;
+    background: -webkit-linear-gradient(bottom, rgb(177, 177, 181) 0%, rgb(144, 142, 154) 65%);
+    background: -o-linear-gradient(bottom, rgb(177, 177, 181) 0%, rgb(144, 142, 154) 65%);
+    background: -ms-linear-gradient(bottom, rgb(177, 177, 181) 0%, rgb(144, 142, 154) 65%);
+    background: -moz-linear-gradient(bottom, rgb(177, 177, 181) 0%, rgb(144, 142, 154) 65%);
+    background: linear-gradient(to top, rgb(177, 177, 181) 0%, rgb(144, 142, 154) 65%);
+    font-size:18px;
+}
+
+h4 {
+    padding:10px;
+    color:white;
+    background: -webkit-linear-gradient(bottom, rgb(177, 177, 181) 0%, rgb(144, 142, 154) 65%);
+    background: -o-linear-gradient(bottom, rgb(177, 177, 181) 0%, rgb(144, 142, 154) 65%);
+    background: -ms-linear-gradient(bottom, rgb(177, 177, 181) 0%, rgb(144, 142, 154) 65%);
+    background: -moz-linear-gradient(bottom, rgb(177, 177, 181) 0%, rgb(144, 142, 154) 65%);
+    background: linear-gradient(to top, rgb(177, 177, 181) 0%, rgb(144, 142, 154) 65%);
+    font-size:16px;
+}
+
+p {
+    margin: 8px 8px 20px 8px;
+    font-size:15px;
+}
+
+a {
+    color:black;
+}
+
+article {
+    display:inline-block;
+    vertical-align: top;
+    margin:25px 25px 0 0;
+    width:273px;
+    min-height:600px;
+    background: -webkit-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
+    background: -o-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
+    background: -ms-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
+    background: -moz-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
+    background: linear-gradient(to right, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
+}
+
+article a {
+    display:block;
+    background-color: #407d61;
+    color:white;
+    padding:5px;
+    border:1px solid black;
+    border-radius:7px;
+    text-decoration: none;
+    box-shadow: 2px 2px 8px black;
+    font-weight: 600;
+    font-size: 14px;
+    margin:0 auto;
+    width:fit-content;
+}
+
+article p {
+    min-height: 170px;
+}
+
+.tech_stack {
+    display:flex;
+    flex-wrap: wrap;
+    padding:10px 10px 0 10px;
+    align-content: flex-start;
+}
+
+.tech_stack img {
+    width: 40px;
+    margin: 0 10px 15px 0;
+}
+
+.last_article {
+    margin-right:0;
+}
+.screenshot {
+    height: 150px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    height:50px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0 0 15px 0;
+}
+
+footer a {
+    font-style: italic;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer img {
+    width:20px;
+    display: inline-block;
+    vertical-align: middle;
+}
