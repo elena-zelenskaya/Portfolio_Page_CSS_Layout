@@ -40,22 +40,21 @@ main {
     background: -ms-linear-gradient(156deg, rgb(69, 50, 57) 0%, rgb(79, 59, 67) 45%, rgb(90, 69, 78) 100%);
     background: -moz-linear-gradient(156deg, rgb(69, 50, 57) 0%, rgb(79, 59, 67) 45%, rgb(90, 69, 78) 100%);
     background: linear-gradient(294deg, rgb(69, 50, 57) 0%, rgb(79, 59, 67) 45%, rgb(90, 69, 78) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 img.my_portrait {
-    display:inline-block;
-    width: 390px;
-    height:257px;
+    height:260px;
     border: 4px solid lightgrey;
     margin-right:25px;
-    vertical-align: top;
 }
 
 .about {
-    display:inline-block;
-    width:447px;
-    height:265px;
-    vertical-align: top;
+    height:268px;
+    flex-basis: 50%;
     background: -webkit-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
     background: -o-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
     background: -ms-linear-gradient(left, rgb(242, 237, 242) 0%, rgb(218, 203, 217) 100%);
@@ -94,8 +93,7 @@ a {
 }
 
 article {
-    display:inline-block;
-    vertical-align: top;
+    flex-basis: 30%;
     margin:25px 25px 0 0;
     width:273px;
     min-height:600px;
